@@ -1,1 +1,0 @@
-create_clock -period 1000.000 -name clk1 [ get_nets CLK ]   
