@@ -1,8 +1,12 @@
---------------------------------------
--- Code to test FPGA programming
+----------------------------------------------------------------
+--ECD322 Open Source FPGA 
+--Team Members: Rachel Roof, John Dambra, Asim Adam, Yizhou Wang
+--Advisor: Professor Douglas Summerville
+--Senior Project 2023, Professor Meghana Jain
+--Watson, Binghamton University
 --
 -- Simple code to output the clock on a GPIO pin
---------------------------------------
+----------------------------------------------------------------
 
 library ieee;
 use ieee.std_logic_1164.all;

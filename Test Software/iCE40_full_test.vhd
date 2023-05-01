@@ -1,9 +1,12 @@
---------------------------------------
--- Code to test FPGA programming
+--------------------------------------------------------------------
+--ECD322 Open Source FPGA 
+--Team Members: Rachel Roof, John Dambra, Asim Adam, Yizhou Wang
+--Advisor: Professor Douglas Summerville
+--Senior Project 2023, Professor Meghana Jain
+--Watson, Binghamton University
 --
--- Turns on LED, outputs clock on PMOD3, 
--- and outputs switch on PMOD1
---------------------------------------
+-- Turns on LED, outputs clock on PMOD3, and outputs switch on PMOD1
+---------------------------------------------------------------------
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -68,7 +71,7 @@ if rising_edge(CLK2) then
 end if;
 end process;
 
-PMOD1 <= SW; --output switch value on pmod3
+PMOD1 <= SW; --output switch value on pmod1
 PMOD3 <= pmod; --output clock on pmod3
 
 end Behavioral;

@@ -1,8 +1,12 @@
---------------------------------------
--- Code to test FPGA programming
+----------------------------------------------------------------
+--ECD322 Open Source FPGA 
+--Team Members: Rachel Roof, John Dambra, Asim Adam, Yizhou Wang
+--Advisor: Professor Douglas Summerville
+--Senior Project 2023, Professor Meghana Jain
+--Watson, Binghamton University
 --
 -- Simple code to test the PMOD output
---------------------------------------
+----------------------------------------------------------------
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -29,7 +33,7 @@ architecture behavior of gpio is
 
 begin
 
-  PMOD1 <= '0';
+  PMOD1 <= '1';
   PMOD2 <= '0';
   PMOD3 <= '0';
   PMOD4 <= '0';
