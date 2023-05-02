@@ -16,4 +16,4 @@ The PCB design includes:
 
 The PCB will require a 5V DC input to power the board. The board requires purchase of Lattice's HW-USBN-2B programming cable, which can be found [here](https://www.latticestore.com/searchresults/tabid/463/searchid/1/searchvalue/hw-usbn-2b/default.aspx). To program the FPGA, you will need to generate a bitmap using the [Lattice iCECube2](https://www.latticesemi.com/iCEcube2) software, and the programming cable is compatible with [Lattice Diamond Programmer](https://www.latticesemi.com/programmer). A free license is needed to use the iCECube2 software.
 
-The PCB was created using EasyEDA, which is a PCB software that is easy to use and modify. The gerber files are not compatible with Atrium. 
+The PCB was created using EasyEDA, which is a PCB software that is easy to use and modify. The gerber files are not compatible with other software, so to use another PCB software you will need to export it from EasyEDA first. 
